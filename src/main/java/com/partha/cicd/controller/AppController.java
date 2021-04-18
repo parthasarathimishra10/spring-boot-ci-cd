@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppController {
     @GetMapping("/message")
     public ResponseDto getResponse(){
-        return new ResponseDto("Welcome to Spring Boot with Git, Jenkins, Docker and Kubernetes");
+        return new ResponseDto("Welcome to Spring Boot with Git, Jenkins, Docker and Kubernetes.");
     }
 }
